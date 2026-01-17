@@ -1,0 +1,120 @@
+{
+    "recipes": [
+        {
+            "name": "Brown Sugar Muffins",
+            "id": "6968560a-a557-4db4-923e-9c3f5924623c",
+            "steps": [
+                {
+                    "id": "c10315e9-6464-4064-b18e-5014bd6d4c8e",
+                    "order": 0,
+                    "ingredients": [
+                        "1 egg",
+                        "3/4 cup milk",
+                        "1 cup brown sugar",
+                        "1/2 c vegetable oil",
+                        "2 c flour",
+                        "1 tbsp baking powder",
+                        "1 tsp salt"
+                    ],
+                    "directions": "Preheat oven to 400°F. Line a muffin tin with paper liners. Beat egg; stir in milk and oil. Add remaining ingredients until moistened. Bake 15 to 18 minutes."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "muffins",
+            "totalCarbs": 348
+        },
+        {
+            "name": "Personal Pizzas",
+            "id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
+            "steps": [
+                {
+                    "id": "d4c3b2a1-0j9i-8h7g-6f5e-4d3c2b1a0k9l",
+                    "order": 0,
+                    "ingredients": [
+                        "1 tbsp yeast",
+                        "1/2 cup warm water"
+                    ],
+                    "directions": "Dissolve yeast in warm water. Preheat oven to 400°F."
+                },
+                {
+                    "id": "43eeed96-3f08-4037-ae11-0d6864eb8bd1",
+                    "order": 1,
+                    "ingredients": [
+                        "1 cup milk",
+                        "2 tbsp margarine",
+                        "2 tbsp sugar",
+                        "3/4 tsp salt"
+                    ],
+                    "directions": "Scald milk, and then add margarine, sugar, and salt. Let cool, then add the yeast that was dissolved in water."
+                },
+                {
+                    "id": "a7c5a56e-ff8f-43c5-bfe6-4b7f111819df",
+                    "order": 2,
+                    "ingredients": [
+                        "3 to 3 1/2 cups flour"
+                    ],
+                    "directions": "Add flour, making a soft dough. Knead 2 minutes. Let rise until double in size. Punch down and divide into 4 portions."
+                },
+                {
+                    "id": "f1e2d3c4-b5a6-7980-9a0b-1c2d3e4f5g6h",
+                    "order": 3,
+                    "ingredients": [
+                        "Pizza sauce",
+                        "Shredded mozzarella cheese",
+                        "Pizza toppings of choice (pepperoni, vegetables, etc.)"
+                    ],
+                    "directions": "Spread each portion of dough in a 9-inch cake pan. Top with pizza sauce, cheese, and desired toppings. Bake at 400°F for 15-20 minutes or until crust is golden brown."
+                }
+            ],
+            "yieldCount": 4,
+            "yieldType": "personal pizzas",
+            "totalCarbs": 350
+        },
+        {
+            "name": "Chocolate Chip Cookies",
+            "id": "0228e599-a6f9-404f-af16-78557229a7f1",
+            "steps": [
+                {
+                    "id": "b1c2d3e4-f5a6-7890-1b2c-3d4e5f6a7b8c",
+                    "order": 0,
+                    "ingredients": [
+                        "1 1/2 cups brown sugar",
+                        "1 1/2 cups white sugar",
+                        "1 cup margarine (2 sticks)"
+                    ],
+                    "directions": "Cream sugars and margarine."
+                },
+                {
+                    "id": "c9d8e7f6-a5b4-3210-9f8e-7d6c5b4a3e2f",
+                    "order": 1,
+                    "ingredients": [
+                        "4 eggs",
+                        "1 tsp vanilla extract"
+                    ],
+                    "directions": "Add eggs and vanilla; beat well."
+                },
+                {
+                    "id": "d1e2f3a4-b5c6-7890-1a2b-3c4d5e6f7g8h",
+                    "order": 2,
+                    "ingredients": [
+                        "5 cups flour",
+                        "2 tsp baking soda",
+                        "1 tsp salt"
+                    ],
+                    "directions": "Add and blend until all flour disappears."
+                },
+                {
+                    "id": "e9f8a7b6-c5d4-3210-9e8f-7d6c5b4a3e2f",
+                    "order": 3,
+                    "ingredients": [
+                        "2 cups chocolate chips"
+                    ],
+                    "directions": "Stir in chocolate chips. Scoop by rounded spoonfools onto baking sheets, spacing them 2 inches apart. Bake at 350°F for 13 minutes or until edges begin to brown."
+                }
+            ],
+            "yieldCount": 58,
+            "yieldType": "cookies",
+            "totalCarbs": 1276
+        }
+    ]
+}

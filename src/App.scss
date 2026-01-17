@@ -1,0 +1,22 @@
+
+:root {
+  padding: 20px;
+}
+
+.recipe-list {
+  column-count: 2;
+}
+
+/* Mobile: stack to single column */
+@media (max-width: 750px) {
+    .recipe-list {
+      column-count: 1
+    }
+}
+
+/* Large screens: three column */
+@media (min-width: 1500px) { 
+    .recipe-list {
+      column-count: 3
+    }
+}

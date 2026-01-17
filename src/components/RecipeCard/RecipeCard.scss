@@ -1,0 +1,44 @@
+$teal: #08787c;
+
+.recipe-card {
+    box-sizing: border-box;
+    break-inside: avoid;
+    height: fit-content;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+
+	border: 1px solid $teal;
+	padding: 12px;
+	border-radius: 6px;
+
+    .recipe-name {
+        text-align: left;
+    }
+
+    .divider {
+        border-top: 1px solid $teal;
+    }
+
+    .ingredients-list {
+        column-count: 2;
+        column-gap: 20px;
+    }
+
+    .ingredient-item {
+        text-align: left;
+        list-style-type: none;   
+        break-inside: avoid;
+        font-weight: 600;
+    }
+
+    .directions {
+        text-align: left;
+    }
+}
+
+/* Smaller screens: stack ingredients in a single column */
+@media (max-width: 1000px) {
+    .recipe-card .ingredients-list {
+        column-count: 1;
+    }
+}
