@@ -1,11 +1,96 @@
 {
     "recipes": [
         {
+            "name": "Coffee Cake",
+            "id": "e2f5f000-8c2d-4bfb-89fe-4e5543c604eb",
+            "steps": [
+                {
+                    "id": "97e5329d-b0cc-4e9c-87a0-732f7f90bc09",
+                    "order": 0,
+                    "ingredients": [
+                        "1 1/2 cups flour",
+                        "3/4 cups sugar",
+                        "2 1/2 tsp baking powder",
+                        "3/4 tsp salt",
+                        "1/4 cup shortening",
+                        "3/4 cup milk"
+                    ],
+                    "directions": "Heat oven to 375°F. Blend all ingredients thoroughly and spread in greased 9-inch round pan."
+                },
+                {
+                    "id": "b4f5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9d",
+                    "order": 1,
+                    "ingredients": [
+                        "1/3 cup brown sugar",
+                        "1/4 cup flour",
+                        "1/2 tsp cinnamon",
+                        "3 tbsp firm butter"
+                    ],
+                    "directions": "Mix ingredients together until crumbly to form the topping. Sprinkle over batter. Bake for 25 to 30 min, or until toothpick inserted in center comes out clean. Serve warm."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "slices",
+            "totalCarbs": 216,
+            "tags": ["dessert", "breakfast", "snack"]
+        },
+        {
+            "name": "Fry Bread",
+            "id": "9d736756-6405-4995-a30d-dbe91d13320a",
+            "steps": [
+                {
+                    "id": "9d736756-6405-4995-a30d-dbe91d13320a-1",
+                    "order": 0,
+                    "ingredients": [
+                        "4 cups flour",
+                        "5 tsp baking powder",
+                        "1 1/2 tsp salt",
+                        "1 1/2 to 2 cups warm water"
+                    ],
+                    "directions": "Put dry ingredients in a large bowl, stir well. Add just enough warm water to make a soft dough. Mix until all flour is absorbed. Cover and let set 30 min."
+                },
+                {
+                    "id": "fa4e5d6c-7b8a-4901-92f3-4567890abcde-1",
+                    "order": 1,
+                    "ingredients": [
+                        "Vegetable oil for frying"
+                    ],
+                    "directions": "Heat 1 to 2 inches of oil in a deep skillet to 350°F. Divide dough into 12 equal portions; shape each into a ball. Flatten each ball into a 6-inch round about 1/4 inch thick. Fry rounds in hot oil until golden brown on both sides, turning once. Drain on paper towels. Serve warm."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "fry bread rounds",
+            "totalCarbs": 380,
+            "tags": ["bread", "snack", "dinner", "fried"]
+        },
+        {
+            "name": "Baking Soda Biscuits",
+            "id": "d7b801b6-20a1-4d88-a74f-78b3630edf0f",
+            "steps": [
+                {
+                    "id": "157d9483-4b74-4ee4-8ea2-f46d57766bee-1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups flour",
+                        "3/4 tsp baking soda",
+                        "1/2 tsp salt",
+                        "1/2 cup shortening",
+                        "1/4 cup vinegar",
+                        "1/2 cup milk"
+                    ],
+                    "directions": "Mix flour, baking soda, and salt. Cut in shortening. Stir in vinegar and milk until dough is sticky. Spoon onto greased cookie sheet. Bake at 450°F for 10-12 minutes or until lightly golden brown."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "biscuits",
+            "totalCarbs": 196
+        },
+        {
             "name": "Brown Sugar Muffins",
             "id": "6968560a-a557-4db4-923e-9c3f5924623c",
             "steps": [
                 {
-                    "id": "c10315e9-6464-4064-b18e-5014bd6d4c8e",
+                    "id": "c10315e9-6464-4064-b18e-5014bd6d4c8e-1",
                     "order": 0,
                     "ingredients": [
                         "1 egg",
@@ -21,14 +106,15 @@
             ],
             "yieldCount": 12,
             "yieldType": "muffins",
-            "totalCarbs": 348
+            "totalCarbs": 348,
+            "tags": ["breakfast", "snack", "muffin"]
         },
         {
             "name": "Personal Pizzas",
             "id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
             "steps": [
                 {
-                    "id": "d4c3b2a1-0j9i-8h7g-6f5e-4d3c2b1a0k9l",
+                    "id": "d4c3b2a1-0j9i-8h7g-6f5e-4d3c2b1a0k9l-1",
                     "order": 0,
                     "ingredients": [
                         "1 tbsp yeast",
@@ -37,7 +123,7 @@
                     "directions": "Dissolve yeast in warm water. Preheat oven to 400°F."
                 },
                 {
-                    "id": "43eeed96-3f08-4037-ae11-0d6864eb8bd1",
+                    "id": "43eeed96-3f08-4037-ae11-0d6864eb8bd1-1",
                     "order": 1,
                     "ingredients": [
                         "1 cup milk",
@@ -48,7 +134,7 @@
                     "directions": "Scald milk, and then add margarine, sugar, and salt. Let cool, then add the yeast that was dissolved in water."
                 },
                 {
-                    "id": "a7c5a56e-ff8f-43c5-bfe6-4b7f111819df",
+                    "id": "a7c5a56e-ff8f-43c5-bfe6-4b7f111819df-1",
                     "order": 2,
                     "ingredients": [
                         "3 to 3 1/2 cups flour"
@@ -56,7 +142,7 @@
                     "directions": "Add flour, making a soft dough. Knead 2 minutes. Let rise until double in size. Punch down and divide into 4 portions."
                 },
                 {
-                    "id": "f1e2d3c4-b5a6-7980-9a0b-1c2d3e4f5g6h",
+                    "id": "f1e2d3c4-b5a6-7980-9a0b-1c2d3e4f5g6h-1",
                     "order": 3,
                     "ingredients": [
                         "Pizza sauce",
@@ -68,14 +154,15 @@
             ],
             "yieldCount": 4,
             "yieldType": "personal pizzas",
-            "totalCarbs": 350
+            "totalCarbs": 350,
+            "tags": ["dinner", "italian", "pizza"]
         },
         {
             "name": "Chocolate Chip Cookies",
             "id": "0228e599-a6f9-404f-af16-78557229a7f1",
             "steps": [
                 {
-                    "id": "b1c2d3e4-f5a6-7890-1b2c-3d4e5f6a7b8c",
+                    "id": "b1c2d3e4-f5a6-7890-1b2c-3d4e5f6a7b8c-1",
                     "order": 0,
                     "ingredients": [
                         "1 1/2 cups brown sugar",
@@ -85,7 +172,7 @@
                     "directions": "Cream sugars and margarine."
                 },
                 {
-                    "id": "c9d8e7f6-a5b4-3210-9f8e-7d6c5b4a3e2f",
+                    "id": "c9d8e7f6-a5b4-3210-9f8e-7d6c5b4a3e2f-1",
                     "order": 1,
                     "ingredients": [
                         "4 eggs",
@@ -94,7 +181,7 @@
                     "directions": "Add eggs and vanilla; beat well."
                 },
                 {
-                    "id": "d1e2f3a4-b5c6-7890-1a2b-3c4d5e6f7g8h",
+                    "id": "d1e2f3a4-b5c6-7890-1a2b-3c4d5e6f7g8h-1",
                     "order": 2,
                     "ingredients": [
                         "5 cups flour",
@@ -104,7 +191,7 @@
                     "directions": "Add and blend until all flour disappears."
                 },
                 {
-                    "id": "e9f8a7b6-c5d4-3210-9e8f-7d6c5b4a3e2f",
+                    "id": "e9f8a7b6-c5d4-3210-9e8f-7d6c5b4a3e2f-1",
                     "order": 3,
                     "ingredients": [
                         "2 cups chocolate chips"
@@ -114,7 +201,1227 @@
             ],
             "yieldCount": 58,
             "yieldType": "cookies",
-            "totalCarbs": 1276
+            "totalCarbs": 1276,
+            "tags": ["dessert", "snack", "cookie"]
+        },
+        {
+            "name": "Dinner Rolls",
+            "id": "f3e2d1c0-b9a8-7654-3210-9f8e7d6c5b4a",
+            "steps": [
+                {
+                    "id": "a1b2c3d4-e5f6-7890-1a2b-3c4d5e6f7g8h-1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups hot water",
+                        "2 tbsp active dry yeast",
+                        "1/2 cup oil",
+                        "1/2 cup sugar"
+                    ],
+                    "directions": "Combine and let activate."
+                },
+                {
+                    "id": "b2c3d4e5-f6a7-8901-2b3c-4d5e6f7g8h9i-1",
+                    "order": 1,
+                    "ingredients": [
+                        "2 eggs",
+                        "2 tsp salt",
+                        "6 cups flour"
+                    ],
+                    "directions": "Add 2 cups flour to yeast mixture, stir well. Then add eggs & salt, stir. Add remaining flour. Knead 10 minutes. If dough is too sticky to handle, add additional flour."
+                },
+                {
+                    "id": "c3d4e5f6-a7b8-9012-3c4d-5e6f7g8h9i0j-1",
+                    "order": 2,
+                    "ingredients": [],
+                    "directions": "Let rise until double in size. Punch down, and form into 24 rolls, place on parchment paper lined baking sheet. Let rise again. Bake at 350°F for 20 minutes or until golden brown. For shiny tops, brush with butter while hot."
+                }
+            ],
+            "yieldCount": 24,
+            "yieldType": "rolls",
+            "totalCarbs": 696,
+            "tags": ["bread", "dinner"]
+        },
+        {
+            "name": "Banana Bread",
+            "id": "rb-0001",
+            "steps": [
+                {
+                    "id": "rb-0001-s1",
+                    "order": 0,
+                    "ingredients": ["350°F oven", "grease loaf pan"],
+                    "directions": "Preheat oven to 350°F and grease a 9x5 loaf pan."
+                },
+                {
+                    "id": "rb-0001-s2",
+                    "order": 1,
+                    "ingredients": ["1 3/4 cups flour", "1 cup sugar", "1 tsp baking soda", "1/2 tsp salt"],
+                    "directions": "Whisk together the flour, sugar, baking soda, and salt in a large bowl."
+                },
+                {
+                    "id": "rb-0001-s3",
+                    "order": 2,
+                    "ingredients": ["2 eggs", "1/2 cup melted butter", "3 ripe bananas, mashed"],
+                    "directions": "In a separate bowl, beat eggs and melted butter; stir in mashed bananas. Add wet mixture to dry ingredients and mix until just combined."
+                },
+                {
+                    "id": "rb-0001-s4",
+                    "order": 3,
+                    "ingredients": [],
+                    "directions": "Pour batter into prepared pan and bake 55-65 minutes or until a toothpick comes out clean. Cool in pan 10 minutes, then transfer to a rack to cool completely."
+                }
+            ],
+            "yieldCount": 1,
+            "yieldType": "loaf",
+            "totalCarbs": 320,
+            "tags": ["breakfast", "snack", "bread"]
+        },
+        {
+            "name": "Blueberry Muffins",
+            "id": "rb-0002",
+            "steps": [
+                {
+                    "id": "rb-0002-s1",
+                    "order": 0,
+                    "ingredients": ["400°F oven", "muffin tin", "paper liners"],
+                    "directions": "Preheat oven to 400°F and line a 12-cup muffin tin with paper liners."
+                },
+                {
+                    "id": "rb-0002-s2",
+                    "order": 1,
+                    "ingredients": ["2 cups flour", "3/4 cup sugar", "2 tsp baking powder", "1/2 tsp salt"],
+                    "directions": "Whisk together the dry ingredients in a large bowl."
+                },
+                {
+                    "id": "rb-0002-s3",
+                    "order": 2,
+                    "ingredients": ["1 cup milk", "1/3 cup vegetable oil", "1 egg"],
+                    "directions": "In a separate bowl, whisk milk, oil, and egg. Pour into dry ingredients and stir until just combined."
+                },
+                {
+                    "id": "rb-0002-s4",
+                    "order": 3,
+                    "ingredients": ["1 cup fresh blueberries"],
+                    "directions": "Gently fold in blueberries, divide batter among muffin cups and bake 18-22 minutes until golden. Cool on a rack."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "muffins",
+            "totalCarbs": 360,
+            "tags": ["breakfast", "muffin", "fruit"]
+        },
+        {
+            "name": "Sourdough Loaf",
+            "id": "rb-0003",
+            "steps": [
+                {
+                    "id": "rb-0003-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "3 cups bread flour",
+                        "1 1/4 cups active sourdough starter",
+                        "1 1/4 cups water",
+                        "2 tsp salt"
+                    ],
+                    "directions": "Mix ingredients, autolyse 30 minutes, stretch and fold over 3 hours, shape and proof overnight. Bake in a dutch oven at 450°F for 30-40 minutes."
+                }
+            ],
+            "yieldCount": 1,
+            "yieldType": "loaf",
+            "totalCarbs": 250,
+            "tags": ["bread", "artisan"]
+        },
+        {
+            "name": "Cinnamon Rolls",
+            "id": "rb-0004",
+            "steps": [
+                {
+                    "id": "rb-0004-s1",
+                    "order": 0,
+                    "ingredients": ["3 cups flour", "1/2 cup sugar", "2 1/4 tsp yeast", "1 cup milk", "1/3 cup butter", "1 egg"],
+                    "directions": "Make an enriched dough by combining the dry ingredients and adding milk, butter, and egg. Knead until smooth and let rise until doubled."
+                },
+                {
+                    "id": "rb-0004-s2",
+                    "order": 1,
+                    "ingredients": ["1 cup brown sugar", "2 tbsp cinnamon", "1/3 cup butter (softened)"],
+                    "directions": "Roll dough into a rectangle, spread with softened butter, and sprinkle cinnamon sugar evenly over the surface."
+                },
+                {
+                    "id": "rb-0004-s3",
+                    "order": 2,
+                    "ingredients": [],
+                    "directions": "Roll the dough tightly, cut into 12 slices, place in a baking pan, let rise until puffy, then bake at 350°F for 20-25 minutes."
+                },
+                {
+                    "id": "rb-0004-s4",
+                    "order": 3,
+                    "ingredients": [],
+                    "directions": "Optional: glaze rolls with icing made from powdered sugar and milk after slightly cooling."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "rolls",
+            "totalCarbs": 420,
+            "tags": ["dessert", "breakfast"]
+        },
+        {
+            "name": "Lemon Bars",
+            "id": "rb-0005",
+            "steps": [
+                {
+                    "id": "rb-0005-s1",
+                    "order": 0,
+                    "ingredients": ["1 1/2 cups flour", "1/2 cup powdered sugar", "3/4 cup butter"],
+                    "directions": "Make the shortbread crust by cutting butter into flour and powdered sugar until crumbly, press into a pan and bake 15-18 minutes at 350°F."
+                },
+                {
+                    "id": "rb-0005-s2",
+                    "order": 1,
+                    "ingredients": ["4 eggs", "1 1/2 cups sugar", "1/4 cup lemon juice", "2 tbsp lemon zest", "1/4 cup flour"],
+                    "directions": "Whisk together eggs, sugar, lemon juice, zest and flour until smooth to make the lemon filling."
+                },
+                {
+                    "id": "rb-0005-s3",
+                    "order": 2,
+                    "ingredients": [],
+                    "directions": "Pour the filling over the pre-baked crust and bake for an additional 18-22 minutes until set. Chill completely and dust with powdered sugar before serving."
+                }
+            ],
+            "yieldCount": 16,
+            "yieldType": "bars",
+            "totalCarbs": 280,
+            "tags": ["dessert", "citrus"]
+        },
+        {
+            "name": "Oatmeal Cookies",
+            "id": "rb-0006",
+            "steps": [
+                {
+                    "id": "rb-0006-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "1 cup butter",
+                        "1 cup brown sugar",
+                        "1/2 cup sugar",
+                        "2 eggs",
+                        "1 tsp vanilla",
+                        "1 1/2 cups flour",
+                        "1 tsp baking soda",
+                        "1 tsp cinnamon",
+                        "3 cups rolled oats"
+                    ],
+                    "directions": "Cream butter and sugars, add eggs and vanilla, mix dry ingredients, fold in oats. Drop by spoonfuls and bake at 350°F for 10-12 minutes."
+                }
+            ],
+            "yieldCount": 36,
+            "yieldType": "cookies",
+            "totalCarbs": 900,
+            "tags": ["dessert", "cookie", "snack"]
+        },
+        {
+            "name": "Pumpkin Bread",
+            "id": "rb-0007",
+            "steps": [
+                {
+                    "id": "rb-0007-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "1 3/4 cups flour",
+                        "1 tsp baking soda",
+                        "1/2 tsp salt",
+                        "2 tsp cinnamon",
+                        "1/2 tsp nutmeg",
+                        "1/2 cup oil",
+                        "1 cup sugar",
+                        "2 eggs",
+                        "1 cup pumpkin puree"
+                    ],
+                    "directions": "Combine dry ingredients, mix in wet ingredients until combined. Pour into loaf pan and bake at 350°F for 50-60 minutes."
+                }
+            ],
+            "yieldCount": 1,
+            "yieldType": "loaf",
+            "totalCarbs": 300,
+            "tags": ["bread", "seasonal", "dessert"]
+        },
+        {
+            "name": "Raspberry Tart",
+            "id": "rb-0008",
+            "steps": [
+                {
+                    "id": "rb-0008-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "1 tart crust",
+                        "1 pint raspberries",
+                        "1/2 cup sugar",
+                        "2 tbsp cornstarch",
+                        "1 tbsp lemon juice"
+                    ],
+                    "directions": "Blind bake crust, combine berries with sugar and cornstarch, fill crust and bake at 375°F for 20-25 minutes. Cool before serving."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "slices",
+            "totalCarbs": 180,
+            "tags": ["dessert", "fruit"]
+        },
+        {
+            "name": "Apple Pie",
+            "id": "rb-0009",
+            "steps": [
+                {
+                    "id": "rb-0009-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 pie crusts",
+                        "6 cups sliced apples",
+                        "3/4 cup sugar",
+                        "2 tbsp flour",
+                        "1 tsp cinnamon",
+                        "1 tbsp lemon juice"
+                    ],
+                    "directions": "Toss apples with sugar, flour and spices. Fill crust, cover, and bake at 400°F for 45-55 minutes."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "slices",
+            "totalCarbs": 420,
+            "tags": ["dessert", "pie", "fruit"]
+        },
+        {
+            "name": "Shortbread Cookies",
+            "id": "rb-0010",
+            "steps": [
+                {
+                    "id": "rb-0010-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups flour",
+                        "3/4 cup butter",
+                        "1/2 cup powdered sugar",
+                        "1/2 tsp salt"
+                    ],
+                    "directions": "Cream butter and sugar, mix in flour and salt, press into pan or shape and bake at 325°F for 18-22 minutes until lightly golden."
+                }
+            ],
+            "yieldCount": 24,
+            "yieldType": "cookies",
+            "totalCarbs": 280,
+            "tags": ["cookie", "tea"]
+        },
+        {
+            "name": "Baked Cheesecake",
+            "id": "rb-0011",
+            "steps": [
+                {
+                    "id": "rb-0011-s1",
+                    "order": 0,
+                    "ingredients": ["2 cups graham cracker crumbs", "1/2 cup butter"],
+                    "directions": "Combine crumbs and melted butter, press into the bottom of a springform pan and bake at 325°F for 8-10 minutes to set the crust."
+                },
+                {
+                    "id": "rb-0011-s2",
+                    "order": 1,
+                    "ingredients": ["4 packages cream cheese", "1 1/4 cups sugar", "1 tsp vanilla", "4 eggs"],
+                    "directions": "Beat cream cheese until smooth, add sugar and vanilla, then add eggs one at a time until incorporated to make the filling."
+                },
+                {
+                    "id": "rb-0011-s3",
+                    "order": 2,
+                    "ingredients": [],
+                    "directions": "Pour filling over crust and bake at 325°F for 60-75 minutes until the center is just set. Cool to room temperature, then chill at least 4 hours."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "slices",
+            "totalCarbs": 900,
+            "tags": ["dessert", "cheesecake"]
+        },
+        {
+            "name": "Focaccia",
+            "id": "rb-0012",
+            "steps": [
+                {
+                    "id": "rb-0012-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "4 cups bread flour",
+                        "1 tbsp yeast",
+                        "1 3/4 cups warm water",
+                        "1/4 cup olive oil",
+                        "2 tsp salt",
+                        "herbs and salt for topping"
+                    ],
+                    "directions": "Mix dough, let rise until doubled, press into oiled pan, dimple and top with herbs. Bake at 425°F for 20-25 minutes."
+                }
+            ],
+            "yieldCount": 1,
+            "yieldType": "pan",
+            "totalCarbs": 300,
+            "tags": ["bread", "savory"]
+        },
+        {
+            "name": "Baguette",
+            "id": "rb-0013",
+            "steps": [
+                {
+                    "id": "rb-0013-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "3 1/2 cups bread flour",
+                        "1 1/4 cups water",
+                        "2 tsp salt",
+                        "1 tsp yeast"
+                    ],
+                    "directions": "Mix dough, bulk ferment, shape into baguettes, final proof, and bake at 475°F with steam for 20-25 minutes."
+                }
+            ],
+            "yieldCount": 2,
+            "yieldType": "loaves",
+            "totalCarbs": 260,
+            "tags": ["bread", "artisan"]
+        },
+        {
+            "name": "Soft Pretzels",
+            "id": "rb-0014",
+            "steps": [
+                {
+                    "id": "rb-0014-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "4 cups flour",
+                        "1 1/2 cups warm water",
+                        "2 tsp yeast",
+                        "1 tsp salt",
+                        "baking soda bath",
+                        "coarse salt"
+                    ],
+                    "directions": "Make dough, shape pretzels, briefly boil in baking soda bath, sprinkle with coarse salt, and bake at 425°F for 12-15 minutes."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "pretzels",
+            "totalCarbs": 320,
+            "tags": ["snack", "bread"]
+        },
+        {
+            "name": "Croissants (basic)",
+            "id": "rb-0015",
+            "steps": [
+                {
+                    "id": "rb-0015-s1",
+                    "order": 0,
+                    "ingredients": ["4 cups flour", "1/2 cup sugar", "2 tsp salt", "2 1/4 tsp yeast", "1 1/2 cups cold milk"],
+                    "directions": "Make an enriched dough by combining ingredients, knead until smooth, then chill until cold."
+                },
+                {
+                    "id": "rb-0015-s2",
+                    "order": 1,
+                    "ingredients": ["1 cup cold butter (for laminating)"],
+                    "directions": "Laminate the dough: roll out, place butter block, fold and chill repeatedly (typically 3-4 turns) to create layers."
+                },
+                {
+                    "id": "rb-0015-s3",
+                    "order": 2,
+                    "ingredients": [],
+                    "directions": "Roll the laminated dough, cut triangles, shape croissants, proof until puffy, then bake at 400°F for 15-20 minutes until golden."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "croissants",
+            "totalCarbs": 720,
+            "tags": ["pastry", "breakfast"]
+        },
+        {
+            "name": "Almond Biscotti",
+            "id": "rb-0016",
+            "steps": [
+                {
+                    "id": "rb-0016-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups flour",
+                        "1 cup sugar",
+                        "2 tsp baking powder",
+                        "2 eggs",
+                        "1 cup almonds",
+                        "1 tsp vanilla"
+                    ],
+                    "directions": "Form logs, bake at 350°F, slice and bake again until crisp."
+                }
+            ],
+            "yieldCount": 24,
+            "yieldType": "biscotti",
+            "totalCarbs": 360,
+            "tags": ["cookie", "coffee"]
+        },
+        {
+            "name": "Zucchini Bread",
+            "id": "rb-0017",
+            "steps": [
+                {
+                    "id": "rb-0017-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups grated zucchini",
+                        "1 1/2 cups flour",
+                        "1 tsp baking soda",
+                        "1/2 tsp salt",
+                        "1 tsp cinnamon",
+                        "1/2 cup oil",
+                        "1 cup sugar",
+                        "2 eggs"
+                    ],
+                    "directions": "Combine, pour into loaf pan and bake at 350°F for 50-60 minutes."
+                }
+            ],
+            "yieldCount": 1,
+            "yieldType": "loaf",
+            "totalCarbs": 280,
+            "tags": ["bread", "vegetable", "snack"]
+        },
+        {
+            "name": "Carrot Cake",
+            "id": "rb-0018",
+            "steps": [
+                {
+                    "id": "rb-0018-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups grated carrots",
+                        "2 cups flour",
+                        "1 1/2 cups sugar",
+                        "1 tsp baking soda",
+                        "1 tsp cinnamon",
+                        "1/2 cup oil",
+                        "3 eggs"
+                    ],
+                    "directions": "Mix and bake at 350°F for 30-35 minutes in two 9-inch pans. Cool and frost with cream cheese frosting."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "slices",
+            "totalCarbs": 560,
+            "tags": ["dessert", "cake"]
+        },
+        {
+            "name": "Pound Cake",
+            "id": "rb-0019",
+            "steps": [
+                {
+                    "id": "rb-0019-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "3 cups flour",
+                        "1 1/2 cups butter",
+                        "2 cups sugar",
+                        "4 eggs",
+                        "1 tsp vanilla"
+                    ],
+                    "directions": "Cream butter and sugar, add eggs and flour alternately. Bake at 350°F for 60-75 minutes."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "slices",
+            "totalCarbs": 700,
+            "tags": ["dessert", "cake"]
+        },
+        {
+            "name": "Brownies (Fudgy)",
+            "id": "rb-0020",
+            "steps": [
+                {
+                    "id": "rb-0020-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "1/2 cup butter",
+                        "1 cup sugar",
+                        "2 eggs",
+                        "1/3 cup cocoa powder",
+                        "1/2 cup flour",
+                        "1/4 tsp salt"
+                    ],
+                    "directions": "Melt butter, stir in sugar and eggs, add dry ingredients. Bake at 350°F for 20-25 minutes."
+                }
+            ],
+            "yieldCount": 16,
+            "yieldType": "squares",
+            "totalCarbs": 450,
+            "tags": ["dessert", "chocolate"]
+        },
+        {
+            "name": "Pecan Pie",
+            "id": "rb-0021",
+            "steps": [
+                {
+                    "id": "rb-0021-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "1 pie crust",
+                        "1 cup corn syrup",
+                        "1 cup brown sugar",
+                        "3 eggs",
+                        "2 tbsp melted butter",
+                        "1 1/2 cups pecans"
+                    ],
+                    "directions": "Mix filling, pour into crust and bake at 350°F for 50-60 minutes."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "slices",
+            "totalCarbs": 560,
+            "tags": ["dessert", "pie", "holiday"]
+        },
+        {
+            "name": "Cherry Hand Pies",
+            "id": "rb-0022",
+            "steps": [
+                {
+                    "id": "rb-0022-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 pie crusts",
+                        "2 cups cherry pie filling",
+                        "1 tbsp cornstarch"
+                    ],
+                    "directions": "Cut rounds from crust, fill with cherry filling, fold and crimp. Brush with egg wash and bake at 375°F for 18-22 minutes."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "hand pies",
+            "totalCarbs": 480,
+            "tags": ["dessert", "portable"]
+        },
+        {
+            "name": "Lemon Pound Cake",
+            "id": "rb-0023",
+            "steps": [
+                {
+                    "id": "rb-0023-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups flour",
+                        "1 1/2 cups sugar",
+                        "1 cup butter",
+                        "4 eggs",
+                        "2 tbsp lemon zest",
+                        "1/4 cup lemon juice"
+                    ],
+                    "directions": "Cream butter and sugar, add eggs and flour, fold in lemon. Bake at 350°F for 50-60 minutes."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "slices",
+            "totalCarbs": 680,
+            "tags": ["dessert", "citrus"]
+        },
+        {
+            "name": "Cornbread",
+            "id": "rb-0024",
+            "steps": [
+                {
+                    "id": "rb-0024-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "1 cup cornmeal",
+                        "1 cup flour",
+                        "1/4 cup sugar",
+                        "1 tbsp baking powder",
+                        "1 cup milk",
+                        "1 egg",
+                        "1/4 cup oil"
+                    ],
+                    "directions": "Mix and bake in a skillet at 400°F for 20-25 minutes."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "slices",
+            "totalCarbs": 220,
+            "tags": ["side", "bread", "savory"]
+        },
+        {
+            "name": "Strawberry Shortcake",
+            "id": "rb-0025",
+            "steps": [
+                {
+                    "id": "rb-0025-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups sliced strawberries",
+                        "1/4 cup sugar",
+                        "2 cups flour",
+                        "1 tbsp baking powder",
+                        "1/2 cup butter",
+                        "3/4 cup milk"
+                    ],
+                    "directions": "Macreate strawberries with sugar. Make biscuits or shortcakes from dough and bake at 425°F for 12-15 minutes. Split and fill with strawberries and whipped cream."
+                }
+            ],
+            "yieldCount": 6,
+            "yieldType": "shortcakes",
+            "totalCarbs": 300,
+            "tags": ["dessert", "fruit"]
+        },
+        {
+            "name": "Baklava",
+            "id": "rb-0026",
+            "steps": [
+                {
+                    "id": "rb-0026-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "1 lb phyllo dough",
+                        "2 cups chopped nuts",
+                        "1 cup butter melted",
+                        "1 cup honey",
+                        "1/2 cup sugar",
+                        "1 tsp cinnamon"
+                    ],
+                    "directions": "Layer phyllo with butter and nuts, bake at 350°F until golden, then pour hot honey-sugar syrup over cooled baklava."
+                }
+            ],
+            "yieldCount": 24,
+            "yieldType": "pieces",
+            "totalCarbs": 720,
+            "tags": ["dessert", "middle-eastern"]
+        },
+        {
+            "name": "Scones",
+            "id": "rb-0027",
+            "steps": [
+                {
+                    "id": "rb-0027-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "2 cups flour",
+                        "1/3 cup sugar",
+                        "1 tbsp baking powder",
+                        "1/2 tsp salt",
+                        "6 tbsp cold butter",
+                        "2/3 cup milk",
+                        "1 egg"
+                    ],
+                    "directions": "Cut in butter, add milk to form dough, shape into rounds, cut into wedges and bake at 400°F for 12-15 minutes."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "scones",
+            "totalCarbs": 320,
+            "tags": ["breakfast", "tea"]
+        },
+        {
+            "name": "Coffee Rolls",
+            "id": "rb-0028",
+            "steps": [
+                {
+                    "id": "rb-0028-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "yeast dough",
+                        "butter",
+                        "brown sugar",
+                        {
+                            "name": "Maple Pecan Scones",
+                            "id": "rb-0031",
+                            "steps": [{"id":"rb-0031-s1","order":0,"ingredients":["2 cups flour","1/3 cup sugar","1/2 cup chopped pecans","1/3 cup maple syrup","1/2 cup butter"],"directions":"Mix dry ingredients, cut in butter, fold in pecans and maple, shape and bake 18-22 minutes at 400°F."}],
+                            "yieldCount": 8,
+                            "yieldType": "scones",
+                            "totalCarbs": 340,
+                            "tags": ["breakfast","pastry"]
+                        },
+                        {
+                            "name": "Cranberry Orange Muffins",
+                            "id": "rb-0032",
+                            "steps": [{"id":"rb-0032-s1","order":0,"ingredients":["2 cups flour","3/4 cup sugar","1 cup milk","1 cup cranberries","zest of 1 orange"],"directions":"Combine wet and dry, fold in cranberries and orange zest, bake 18-22 minutes at 375°F."}],
+                            "yieldCount": 12,
+                            "yieldType": "muffins",
+                            "totalCarbs": 360,
+                            "tags": ["breakfast","fruit"]
+                        },
+                        {
+                            "name": "Chocolate Madeleines",
+                            "id": "rb-0033",
+                            "steps": [{"id":"rb-0033-s1","order":0,"ingredients":["1/2 cup flour","1/2 cup cocoa","3 eggs","1/2 cup sugar","1/2 cup butter"],"directions":"Prepare batter, pipe into molds and bake at 375°F for 10-12 minutes."}],
+                            "yieldCount": 24,
+                            "yieldType": "madeleines",
+                            "totalCarbs": 420,
+                            "tags": ["dessert","cookie"]
+                        },
+                        {
+                            "name": "Garlic Parmesan Pull-Apart Bread",
+                            "id": "rb-0034",
+                            "steps": [{"id":"rb-0034-s1","order":0,"ingredients":["1 loaf bread","1/2 cup butter","2 cloves garlic","1/2 cup parmesan"],"directions":"Slice loaf into cubes, toss with garlic butter and parmesan, bake until crisp and golden."}],
+                            "yieldCount": 8,
+                            "yieldType": "servings",
+                            "totalCarbs": 200,
+                            "tags": ["side","bread"]
+                        },
+                        {
+                            "name": "Pumpkin Spice Muffins",
+                            "id": "rb-0035",
+                            "steps": [{"id":"rb-0035-s1","order":0,"ingredients":["1 1/2 cups flour","1 cup pumpkin puree","3/4 cup sugar","1 tsp cinnamon"],"directions":"Mix, fill muffin tin and bake at 375°F for 18-22 minutes."}],
+                            "yieldCount": 12,
+                            "yieldType": "muffins",
+                            "totalCarbs": 340,
+                            "tags": ["seasonal","muffin"]
+                        },
+                        {
+                            "name": "Parmesan Herb Shortbread",
+                            "id": "rb-0036",
+                            "steps": [{"id":"rb-0036-s1","order":0,"ingredients":["2 cups flour","1 cup butter","1/2 cup grated parmesan","1 tbsp mixed herbs"],"directions":"Blend ingredients, press into pan, bake 20 minutes at 350°F, cool and cut."}],
+                            "yieldCount": 24,
+                            "yieldType": "savory cookies",
+                            "totalCarbs": 240,
+                            "tags": ["savory","snack"]
+                        },
+                        {
+                            "name": "Honey Oat Bread",
+                            "id": "rb-0037",
+                            "steps": [{"id":"rb-0037-s1","order":0,"ingredients":["3 cups flour","1 cup oats","2 tbsp honey","1 tbsp yeast","1 1/4 cup water"],"directions":"Mix and knead dough, let rise, shape and bake at 375°F for 30-35 minutes."}],
+                            "yieldCount": 1,
+                            "yieldType": "loaf",
+                            "totalCarbs": 340,
+                            "tags": ["bread","breakfast"]
+                        },
+                        {
+                            "name": "Almond Joy Cookies",
+                            "id": "rb-0038",
+                            "steps": [{"id":"rb-0038-s1","order":0,"ingredients":["1 cup shredded coconut","1/2 cup chopped almonds","1/2 cup chocolate chips","1/2 cup sweetened condensed milk"],"directions":"Mix, drop spoonfuls and bake 12-15 minutes at 350°F."}],
+                            "yieldCount": 24,
+                            "yieldType": "cookies",
+                            "totalCarbs": 420,
+                            "tags": ["dessert","cookie"]
+                        },
+                        {
+                            "name": "Lemon Poppy Seed Loaf",
+                            "id": "rb-0039",
+                            "steps": [{"id":"rb-0039-s1","order":0,"ingredients":["2 cups flour","1 cup sugar","1/4 cup poppy seeds","2 eggs","1/2 cup milk","zest of 1 lemon"],"directions":"Mix and bake in loaf pan at 350°F for 50-60 minutes."}],
+                            "yieldCount": 1,
+                            "yieldType": "loaf",
+                            "totalCarbs": 380,
+                            "tags": ["dessert","citrus"]
+                        },
+                        {
+                            "name": "Classic Bagels",
+                            "id": "rb-0040",
+                            "steps": [{"id":"rb-0040-s1","order":0,"ingredients":["4 cups bread flour","1 tbsp yeast","1 1/4 cups water","malt or sugar"],"directions":"Make dough, shape into bagels, boil briefly, and bake at 425°F for 18-22 minutes."}],
+                            "yieldCount": 8,
+                            "yieldType": "bagels",
+                            "totalCarbs": 360,
+                            "tags": ["breakfast","bread"]
+                        },
+                        {
+                            "name": "Ginger Molasses Cookies",
+                            "id": "rb-0041",
+                            "steps": [{"id":"rb-0041-s1","order":0,"ingredients":["2 cups flour","1/2 cup molasses","1/2 cup brown sugar","1 tsp ginger"],"directions":"Mix, chill dough, roll into balls, coat with sugar and bake at 350°F for 10-12 minutes."}],
+                            "yieldCount": 36,
+                            "yieldType": "cookies",
+                            "totalCarbs": 520,
+                            "tags": ["dessert","cookie"]
+                        },
+                        {
+                            "name": "Savory Cheese Muffins",
+                            "id": "rb-0042",
+                            "steps": [{"id":"rb-0042-s1","order":0,"ingredients":["2 cups flour","1 cup grated cheddar","1 tbsp baking powder","1 cup milk"],"directions":"Combine ingredients, spoon into muffin tin and bake 18-22 minutes at 400°F."}],
+                            "yieldCount": 12,
+                            "yieldType": "muffins",
+                            "totalCarbs": 300,
+                            "tags": ["savory","breakfast"]
+                        },
+                        {
+                            "name": "Matcha Cookies",
+                            "id": "rb-0043",
+                            "steps": [{"id":"rb-0043-s1","order":0,"ingredients":["1 3/4 cups flour","1/2 cup sugar","1 tbsp matcha powder","1/2 cup butter"],"directions":"Cream butter and sugar, add matcha and flour, chill and bake at 350°F for 10-12 minutes."}],
+                            "yieldCount": 30,
+                            "yieldType": "cookies",
+                            "totalCarbs": 360,
+                            "tags": ["dessert","cookie","tea"]
+                        },
+                        {
+                            "name": "Savory Corn Fritters",
+                            "id": "rb-0044",
+                            "steps": [{"id":"rb-0044-s1","order":0,"ingredients":["1 cup corn","1/2 cup flour","1 egg","1/4 cup milk"],"directions":"Mix and fry spoonfuls in oil until golden. Drain and serve warm."}],
+                            "yieldCount": 16,
+                            "yieldType": "fritters",
+                            "totalCarbs": 240,
+                            "tags": ["side","fried"]
+                        },
+                        {
+                            "name": "Vanilla Cupcakes",
+                            "id": "rb-0045",
+                            "steps": [{"id":"rb-0045-s1","order":0,"ingredients":["2 cups flour","1 1/2 cups sugar","3/4 cup butter","3 eggs","1 tsp vanilla"],"directions":"Cream butter and sugar, add eggs and dry ingredients, bake in cupcake tins at 350°F for 18-22 minutes."}],
+                            "yieldCount": 24,
+                            "yieldType": "cupcakes",
+                            "totalCarbs": 720,
+                            "tags": ["dessert","cake"]
+                        },
+                        {
+                            "name": "Ricotta Lemon Cookies",
+                            "id": "rb-0046",
+                            "steps": [{"id":"rb-0046-s1","order":0,"ingredients":["1 cup ricotta","1 cup sugar","2 cups flour","zest of 1 lemon"],"directions":"Mix ingredients, chill, shape and bake at 350°F for 12-14 minutes."}],
+                            "yieldCount": 24,
+                            "yieldType": "cookies",
+                            "totalCarbs": 360,
+                            "tags": ["dessert"]
+                        },
+                        {
+                            "name": "Honey Banana Rolls",
+                            "id": "rb-0047",
+                            "steps": [{"id":"rb-0047-s1","order":0,"ingredients":["yeast dough","banana slices","honey","butter"],"directions":"Fill dough with banana and honey, roll, proof and bake at 375°F for 15-18 minutes."}],
+                            "yieldCount": 12,
+                            "yieldType": "rolls",
+                            "totalCarbs": 420,
+                            "tags": ["breakfast","sweet"]
+                        },
+                        {
+                            "name": "Blueberry Crumb Cake",
+                            "id": "rb-0048",
+                            "steps": [{"id":"rb-0048-s1","order":0,"ingredients":["2 cups flour","1 cup sugar","1 cup blueberries","1/2 cup butter","crumb topping"],"directions":"Prepare batter, top with crumb and blueberries, bake 35-40 minutes at 350°F."}],
+                            "yieldCount": 12,
+                            "yieldType": "slices",
+                            "totalCarbs": 520,
+                            "tags": ["dessert","fruit"]
+                        },
+                        {
+                            "name": "Chewy Oat Bars",
+                            "id": "rb-0049",
+                            "steps": [{"id":"rb-0049-s1","order":0,"ingredients":["2 cups oats","1/2 cup honey","1/2 cup butter","1/2 cup brown sugar"],"directions":"Mix, press into pan and bake 20-25 minutes at 350°F. Cool and slice."}],
+                            "yieldCount": 16,
+                            "yieldType": "bars",
+                            "totalCarbs": 600,
+                            "tags": ["snack","breakfast"]
+                        },
+                        {
+                            "name": "Chocolate Hazelnut Tarts",
+                            "id": "rb-0050",
+                            "steps": [{"id":"rb-0050-s1","order":0,"ingredients":["tart shells","chocolate ganache","chopped hazelnuts"],"directions":"Fill pre-baked shells with ganache, top with hazelnuts and chill until set."}],
+                            "yieldCount": 8,
+                            "yieldType": "tarts",
+                            "totalCarbs": 480,
+                            "tags": ["dessert","chocolate"]
+                        },
+                        {
+                            "name": "Spiced Apple Turnovers",
+                            "id": "rb-0051",
+                            "steps": [{"id":"rb-0051-s1","order":0,"ingredients":["puff pastry","spiced apple filling","egg wash"],"directions":"Fill squares of pastry, fold into turnovers, brush with egg and bake at 400°F for 18-20 minutes."}],
+                            "yieldCount": 8,
+                            "yieldType": "turnovers",
+                            "totalCarbs": 360,
+                            "tags": ["dessert","fruit"]
+                        },
+                        {
+                            "name": "Honey Butter Cornbread Muffins",
+                            "id": "rb-0052",
+                            "steps": [{"id":"rb-0052-s1","order":0,"ingredients":["1 cup cornmeal","1 cup flour","1/4 cup sugar","1 cup milk","1 egg","2 tbsp honey"],"directions":"Mix and bake in muffin tin at 400°F for 15-18 minutes. Brush with honey butter."}],
+                            "yieldCount": 12,
+                            "yieldType": "muffins",
+                            "totalCarbs": 300,
+                            "tags": ["side","bread"]
+                        },
+                        {
+                            "name": "Coconut Cream Pie Bars",
+                            "id": "rb-0053",
+                            "steps": [{"id":"rb-0053-s1","order":0,"ingredients":["shortbread crust","coconut custard","whipped cream"],"directions":"Bake crust, add coconut custard and chill until set; top with whipped cream."}],
+                            "yieldCount": 12,
+                            "yieldType": "bars",
+                            "totalCarbs": 420,
+                            "tags": ["dessert","pie"]
+                        },
+                        {
+                            "name": "Brown Sugar Oat Muffins",
+                            "id": "rb-0054",
+                            "steps": [{"id":"rb-0054-s1","order":0,"ingredients":["1 1/2 cups oats","1 cup flour","3/4 cup brown sugar","1 egg","1 cup milk"],"directions":"Combine and bake at 375°F for 18-22 minutes."}],
+                            "yieldCount": 12,
+                            "yieldType": "muffins",
+                            "totalCarbs": 380,
+                            "tags": ["breakfast","muffin"]
+                        },
+                        {
+                            "name": "Molten Chocolate Lava Cakes",
+                            "id": "rb-0055",
+                            "steps": [{"id":"rb-0055-s1","order":0,"ingredients":["4 oz chocolate","1/2 cup butter","2 eggs","1/4 cup sugar","1/4 cup flour"],"directions":"Melt chocolate and butter, fold with eggs and dry ingredients, bake at 425°F for 10-12 minutes until edges set and centers soft."}],
+                            "yieldCount": 6,
+                            "yieldType": "cakes",
+                            "totalCarbs": 240,
+                            "tags": ["dessert","chocolate"]
+                        },
+                        {
+                            "name": "Sweet Potato Rolls",
+                            "id": "rb-0056",
+                            "steps": [{"id":"rb-0056-s1","order":0,"ingredients":["2 cups mashed sweet potato","3 cups flour","1 tbsp yeast","1/4 cup sugar"],"directions":"Make enriched dough with sweet potato, shape rolls, proof and bake at 375°F for 18-22 minutes."}],
+                            "yieldCount": 12,
+                            "yieldType": "rolls",
+                            "totalCarbs": 320,
+                            "tags": ["bread","seasonal"]
+                        },
+                        {
+                            "name": "Peanut Butter Blossoms",
+                            "id": "rb-0057",
+                            "steps": [{"id":"rb-0057-s1","order":0,"ingredients":["1 1/2 cups flour","1/2 cup peanut butter","1/2 cup sugar","1 egg","chocolate kisses"],"directions":"Drop dough balls, bake 8-10 minutes and press chocolate kiss into warm cookie."}],
+                            "yieldCount": 36,
+                            "yieldType": "cookies",
+                            "totalCarbs": 480,
+                            "tags": ["dessert","cookie"]
+                        },
+                        {
+                            "name": "Apricot Almond Bars",
+                            "id": "rb-0058",
+                            "steps": [{"id":"rb-0058-s1","order":0,"ingredients":["shortbread base","apricot jam","sliced almonds"],"directions":"Layer jam over base, sprinkle almonds and bake until golden."}],
+                            "yieldCount": 16,
+                            "yieldType": "bars",
+                            "totalCarbs": 420,
+                            "tags": ["dessert","fruit"]
+                        },
+                        {
+                            "name": "Cocoa Swirl Bread",
+                            "id": "rb-0059",
+                            "steps": [{"id":"rb-0059-s1","order":0,"ingredients":["bread dough","cocoa filling","sugar"],"directions":"Layer cocoa filling into rolled dough, twist, proof and bake at 375°F for 30-35 minutes."}],
+                            "yieldCount": 1,
+                            "yieldType": "loaf",
+                            "totalCarbs": 400,
+                            "tags": ["bread","sweet"]
+                        },
+                        {
+                            "name": "Orange Glazed Donuts (baked)",
+                            "id": "rb-0060",
+                            "steps": [{"id":"rb-0060-s1","order":0,"ingredients":["donut batter","orange zest","orange glaze"],"directions":"Pipe into donut pan and bake 10-12 minutes, cool and glaze with orange icing."}],
+                            "yieldCount": 12,
+                            "yieldType": "donuts",
+                            "totalCarbs": 420,
+                            "tags": ["dessert","breakfast"]
+                        },
+                        {
+                            "name": "Savory Cheddar Twists",
+                            "id": "rb-0061",
+                            "steps": [{"id":"rb-0061-s1","order":0,"ingredients":["puff pastry","grated cheddar","mustard"],"directions":"Spread mustard and cheese on pastry, fold and twist, bake until golden."}],
+                            "yieldCount": 24,
+                            "yieldType": "twists",
+                            "totalCarbs": 360,
+                            "tags": ["savory","snack"]
+                        },
+                        {
+                            "name": "Fig and Walnut Bread",
+                            "id": "rb-0062",
+                            "steps": [{"id":"rb-0062-s1","order":0,"ingredients":["3 cups flour","1 cup chopped dried figs","1/2 cup chopped walnuts","1 tbsp yeast"],"directions":"Mix, knead, proof and bake at 375°F for 30-35 minutes."}],
+                            "yieldCount": 1,
+                            "yieldType": "loaf",
+                            "totalCarbs": 420,
+                            "tags": ["bread","fruit"]
+                        },
+                        {
+                            "name": "Blue Cheese Gougères",
+                            "id": "rb-0063",
+                            "steps": [{"id":"rb-0063-s1","order":0,"ingredients":["choux pastry","grated blue cheese"],"directions":"Pipe choux, sprinkle cheese and bake until puffed and golden."}],
+                            "yieldCount": 30,
+                            "yieldType": "gougeres",
+                            "totalCarbs": 300,
+                            "tags": ["savory","party"]
+                        },
+                        {
+                            "name": "Chocolate Chip Banana Muffins",
+                            "id": "rb-0064",
+                            "steps": [{"id":"rb-0064-s1","order":0,"ingredients":["2 ripe bananas","2 cups flour","1 cup chocolate chips","1/2 cup sugar"],"directions":"Mix and bake 18-22 minutes at 375°F."}],
+                            "yieldCount": 12,
+                            "yieldType": "muffins",
+                            "totalCarbs": 420,
+                            "tags": ["breakfast","muffin"]
+                        },
+                        {
+                            "name": "Caramel Apple Bread Pudding",
+                            "id": "rb-0065",
+                            "steps": [{"id":"rb-0065-s1","order":0,"ingredients":["stale bread","apples","custard mix","caramel sauce"],"directions":"Toss bread and apples with custard, bake until set, serve with caramel."}],
+                            "yieldCount": 8,
+                            "yieldType": "servings",
+                            "totalCarbs": 520,
+                            "tags": ["dessert","comfort"]
+                        },
+                        {
+                            "name": "Vanilla Bean Breadsticks",
+                            "id": "rb-0066",
+                            "steps": [{"id":"rb-0066-s1","order":0,"ingredients":["bread dough","butter","vanilla bean sugar"],"directions":"Roll into sticks, brush with butter and vanilla sugar, bake until golden."}],
+                            "yieldCount": 20,
+                            "yieldType": "sticks",
+                            "totalCarbs": 300,
+                            "tags": ["snack","sweet"]
+                        },
+                        {
+                            "name": "Rye Dinner Rolls",
+                            "id": "rb-0067",
+                            "steps": [{"id":"rb-0067-s1","order":0,"ingredients":["2 cups rye flour","1 cup bread flour","yeast","water"],"directions":"Mix, knead, proof and bake at 375°F for 20-25 minutes."}],
+                            "yieldCount": 12,
+                            "yieldType": "rolls",
+                            "totalCarbs": 360,
+                            "tags": ["bread","savory"]
+                        },
+                        {
+                            "name": "Cardamom Buns",
+                            "id": "rb-0068",
+                            "steps": [{"id":"rb-0068-s1","order":0,"ingredients":["enriched dough","cardamom sugar","butter"],"directions":"Roll dough, fill with cardamom sugar, twist into buns and bake at 375°F until golden."}],
+                            "yieldCount": 12,
+                            "yieldType": "buns",
+                            "totalCarbs": 440,
+                            "tags": ["pastry","breakfast"]
+                        },
+                        {
+                            "name": "Pistachio Financiers",
+                            "id": "rb-0069",
+                            "steps": [{"id":"rb-0069-s1","order":0,"ingredients":["1 cup almond flour","1/2 cup pistachios","3 eggs","1/2 cup sugar","1/2 cup butter"],"directions":"Prepare batter, bake in financier molds at 375°F for 10-12 minutes."}],
+                            "yieldCount": 24,
+                            "yieldType": "financiers",
+                            "totalCarbs": 360,
+                            "tags": ["dessert","nut"]
+                        },
+                        {
+                            "name": "Sweet Corn Cake",
+                            "id": "rb-0070",
+                            "steps": [{"id":"rb-0070-s1","order":0,"ingredients":["1 1/2 cups cornmeal","1 cup flour","1 cup corn kernels","1/2 cup sugar","2 eggs"],"directions":"Mix and bake in a pan at 375°F for 25-30 minutes until set."}],
+                            "yieldCount": 9,
+                            "yieldType": "pieces",
+                            "totalCarbs": 360,
+                            "tags": ["dessert","corn"]
+                        },
+                        {
+                            "name": "Salted Caramel Brownies",
+                            "id": "rb-0071",
+                            "steps": [{"id":"rb-0071-s1","order":0,"ingredients":["brownie batter","caramel","sea salt"],"directions":"Swirl caramel into batter and bake; sprinkle sea salt when cooled."}],
+                            "yieldCount": 16,
+                            "yieldType": "squares",
+                            "totalCarbs": 480,
+                            "tags": ["dessert","chocolate"]
+                        },
+                        {
+                            "name": "Honey Lavender Shortbread",
+                            "id": "rb-0072",
+                            "steps": [{"id":"rb-0072-s1","order":0,"ingredients":["2 cups flour","3/4 cup butter","1/4 cup honey","1 tbsp dried lavender"],"directions":"Mix, press into pan, bake at 325°F for 18-22 minutes."}],
+                            "yieldCount": 24,
+                            "yieldType": "cookies",
+                            "totalCarbs": 300,
+                            "tags": ["dessert","tea"]
+                        },
+                        {
+                            "name": "Herbed Focaccia Squares",
+                            "id": "rb-0073",
+                            "steps": [{"id":"rb-0073-s1","order":0,"ingredients":["focaccia dough","olive oil","rosemary","sea salt"],"directions":"Press dough into pan, dimple, add oil and herbs and bake until golden."}],
+                            "yieldCount": 16,
+                            "yieldType": "squares",
+                            "totalCarbs": 320,
+                            "tags": ["bread","savory"]
+                        },
+                        {
+                            "name": "Chocolate Espresso Cookies",
+                            "id": "rb-0074",
+                            "steps": [{"id":"rb-0074-s1","order":0,"ingredients":["2 cups flour","1/2 cup cocoa","2 tbsp espresso powder","1 cup sugar","1/2 cup butter"],"directions":"Mix, chill dough, bake at 350°F for 10-12 minutes."}],
+                            "yieldCount": 36,
+                            "yieldType": "cookies",
+                            "totalCarbs": 480,
+                            "tags": ["dessert","coffee"]
+                        },
+                        {
+                            "name": "Cinnamon Sugar Donut Holes",
+                            "id": "rb-0075",
+                            "steps": [{"id":"rb-0075-s1","order":0,"ingredients":["donut dough","cinnamon sugar","oil for frying"],"directions":"Form small balls, fry until golden and toss in cinnamon sugar."}],
+                            "yieldCount": 48,
+                            "yieldType": "donut holes",
+                            "totalCarbs": 520,
+                            "tags": ["dessert","fried"]
+                        },
+                        {
+                            "name": "Nutella Swirl Babka",
+                            "id": "rb-0076",
+                            "steps": [{"id":"rb-0076-s1","order":0,"ingredients":["enriched dough","nutella"],"directions":"Spread nutella, roll and twist, proof and bake until glossy and golden."}],
+                            "yieldCount": 1,
+                            "yieldType": "loaf",
+                            "totalCarbs": 680,
+                            "tags": ["pastry","chocolate"]
+                        },
+                        {
+                            "name": "Sour Cherry Scones",
+                            "id": "rb-0077",
+                            "steps": [{"id":"rb-0077-s1","order":0,"ingredients":["2 cups flour","1 cup chopped sour cherries","1/3 cup sugar","1/2 cup butter"],"directions":"Mix, shape scones and bake at 400°F for 12-15 minutes."}],
+                            "yieldCount": 8,
+                            "yieldType": "scones",
+                            "totalCarbs": 360,
+                            "tags": ["dessert","fruit"]
+                        },
+                        {
+                            "name": "Cheddar Scallion Biscuits",
+                            "id": "rb-0078",
+                            "steps": [{"id":"rb-0078-s1","order":0,"ingredients":["2 cups flour","1/2 cup grated cheddar","2 scallions","1/2 cup butter","1 tbsp baking powder"],"directions":"Cut in butter, fold in scallions and cheese and bake at 425°F for 12-15 minutes."}],
+                            "yieldCount": 12,
+                            "yieldType": "biscuits",
+                            "totalCarbs": 300,
+                            "tags": ["savory","breakfast"]
+                        },
+                        {
+                            "name": "Toasted Almond Croissants",
+                            "id": "rb-0079",
+                            "steps": [{"id":"rb-0079-s1","order":0,"ingredients":["croissant dough","almond paste","sliced almonds"],"directions":"Fill croissants with almond paste, bake and top with sliced almonds and glaze."}],
+                            "yieldCount": 12,
+                            "yieldType": "croissants",
+                            "totalCarbs": 720,
+                            "tags": ["pastry","almond"]
+                        },
+                        {
+                            "name": "Cardamom Sugar Donuts",
+                            "id": "rb-0080",
+                            "steps": [{"id":"rb-0080-s1","order":0,"ingredients":["donut dough","cardamom sugar","oil for frying"],"directions":"Fry donuts until golden and toss in cardamom sugar while warm."}],
+                            "yieldCount": 12,
+                            "yieldType": "donuts",
+                            "totalCarbs": 460,
+                            "tags": ["dessert","spiced"]
+                        }
+                        "cinnamon"
+                    ],
+                    "directions": "Roll out dough, fill, roll up and slice, proof and bake. Serve warm with glaze."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "rolls",
+            "totalCarbs": 440,
+            "tags": ["breakfast", "sweet"]
+        },
+        {
+            "name": "Cheese Danish",
+            "id": "rb-0029",
+            "steps": [
+                {
+                    "id": "rb-0029-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "puff pastry or laminated dough",
+                        "cream cheese",
+                        "sugar",
+                        "egg"
+                    ],
+                    "directions": "Fill squares of dough with sweetened cream cheese, fold and bake at 400°F for 15-18 minutes until golden."
+                }
+            ],
+            "yieldCount": 8,
+            "yieldType": "danishes",
+            "totalCarbs": 360,
+            "tags": ["pastry", "breakfast"]
+        },
+        {
+            "name": "Garlic Knots",
+            "id": "rb-0030",
+            "steps": [
+                {
+                    "id": "rb-0030-s1",
+                    "order": 0,
+                    "ingredients": [
+                        "pizza dough",
+                        "butter",
+                        "garlic",
+                        "parsley"
+                    ],
+                    "directions": "Tie small strips of dough into knots, bake at 400°F for 12-15 minutes, toss with garlic butter."
+                }
+            ],
+            "yieldCount": 12,
+            "yieldType": "knots",
+            "totalCarbs": 360,
+            "tags": ["side", "bread", "savory"]
         }
     ]
 }

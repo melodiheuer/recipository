@@ -37,6 +37,9 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
         {recipe.steps?.map((step) => (
           <RecipeStep key={step.id} recipeStep={step} />
         ))}
+        <hr className="divider" />
+        <p className="yield">Yield: {recipe.yieldCount} {recipe.yieldType}</p>
+
     </div>
   );
 }

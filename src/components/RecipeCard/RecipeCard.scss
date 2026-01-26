@@ -4,15 +4,24 @@ $teal: #08787c;
     box-sizing: border-box;
     break-inside: avoid;
     height: fit-content;
-    flex-basis: calc(50% - 10px);
     margin-bottom: 20px;
+    background: var(--card-bg, #ffffff);
+    border-radius: 8px;
+    /* light-mode elevated shadow */
+    box-shadow: 0 6px 18px rgba(16, 24, 40, 0.08), 0 2px 6px rgba(16, 24, 40, 0.04);
+    transition: box-shadow 180ms ease, transform 180ms ease;
 
-	border: 1px solid $teal;
-	padding: 12px;
-	border-radius: 6px;
+    border: 1px solid $teal;
+    padding: 12px;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 36px rgba(16, 24, 40, 0.12), 0 4px 12px rgba(16, 24, 40, 0.06);
+    }
 
     .recipe-name {
         text-align: left;
+        line-height: 1;
     }
 
     .divider {
@@ -26,9 +35,9 @@ $teal: #08787c;
 
     .ingredient-item {
         text-align: left;
-        list-style-type: none;   
+        list-style-type: none;
         break-inside: avoid;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .directions {
@@ -40,5 +49,19 @@ $teal: #08787c;
 @media (max-width: 1000px) {
     .recipe-card .ingredients-list {
         column-count: 1;
+    }
+}
+
+/* Dark mode: stronger shadow and subtle surface tint */
+@media (prefers-color-scheme: dark) {
+    .recipe-card {
+        background: var(--card-bg, #03393b);
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 2px 6px rgba(255, 255, 255, 0.02) inset;
+
+        &:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 44px rgba(0, 0, 0, 0.72);
+        }
     }
 }
